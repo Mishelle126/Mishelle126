@@ -1,0 +1,45 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+button{
+    color: rgb(10, 194, 240);
+    padding: auto;
+    margin: 0em;
+    content: none;
+}
+
+.fondo{
+  background-color: rgb(186, 198, 199);
+  padding: 40px;
+  margin: auto;
+  border: 1px black;
+}
+.parrafo{
+  border: 1px rgb(34, 32, 31);
+  padding: 30px;
+  margin: auto;
+  background-color: gray;
+}
+img{
+  width: 100px;
+  height: 100px;
+  display: flex;
+
+}
+.linea{
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 200px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+
+}
+.imagen:hover{
+  filter: saturate(180%);
+}
+#tabla, tr {
+  width: 100%;
+border: 1px solid rgb(243, 118, 118);
+}
+
